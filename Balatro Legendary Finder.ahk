@@ -181,12 +181,14 @@ ResetMousePosition()
 	return
 }
 
+; When you click run on the first GUI, it will start the timer and start looking for legendaries
 ButtonRun: 
 	Gui, Submit, NoHide  ; Save each control's contents to its associated variable.
 	startTime := A_TickCount
 	RunBalatroLegendaryFinder(AnyLegendary, Canio, Triboulet, Yorick, Chicot, Perkeo, FirstBlind, SecondBlind, HexMegArcana, HexMegArcanaGreyedOut, HexMegArcanaSkip, HexSoulCard, HexCanio, HexTriboulet, HexYorick, HexChicot, HexPerkeo, HexDesiredJoker, HexUseButton, PacksOpened)
 return
 
+; Timer Functionality
 UpdateElapsedTime:
     elapsedTime := (A_TickCount - startTime) / 1000
     hours := Floor(elapsedTime / 3600)
@@ -196,10 +198,12 @@ UpdateElapsedTime:
     GuiControl, Second:Text, ElapsedTime, %elapsedTimeDisplay%
 return
 
+; Update Packs Opened Counter
 UpdatePacksOpened:
 	UpdatePacksFunction()
 return
 
+; Increase Packs Opened counter when called
 UpdatePacksFunction()
 {
 	global PacksOpened
@@ -207,10 +211,12 @@ UpdatePacksFunction()
 	GuiControl, Second:Text, PacksOpened, %PacksOpened%
 }
 
+; Pressing the X in the top right will exit the script
 GuiClose:
 	ExitApp
 return
 
+; Pressing Quit will exit the script
 Button_Quit:
 	ExitApp
 return
