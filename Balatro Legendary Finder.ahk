@@ -1,8 +1,6 @@
 ﻿; TO USE:
 ; Install AutHotKey (https://www.autohotkey.com/)
-; Open AutoHotKeyDash > New Script
-; Open Script in Notepad/IDE
-; Copy/Paste this code, save
+; Download this file (Balatro Legendary Finder.ahk)
 ; Run the .AHK File
 
 
