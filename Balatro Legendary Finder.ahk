@@ -2,7 +2,7 @@
 ; Install AutHotKey (https://www.autohotkey.com/)
 ; Download this file (Balatro Legendary Finder.ahk)
 ; Open Balatro
-; Run the .AHK File
+; Run Balatro Legendary Finder.ahk
 
 
 ; -----------------------------------------------------------------------------------
