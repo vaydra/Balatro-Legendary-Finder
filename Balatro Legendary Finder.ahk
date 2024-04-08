@@ -1,7 +1,9 @@
 ﻿; TO USE:
 ; Install AutHotKey (https://www.autohotkey.com/)
-; Save this script as an .AHK
-; Run 
+; Open AutoHotKeyDash > New Script
+; Open Script in Notepad/IDE
+; Copy/Paste this code, save
+; Run the .AHK File
 
 
 ; -----------------------------------------------------------------------------------
