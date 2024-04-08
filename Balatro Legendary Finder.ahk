@@ -10,17 +10,17 @@
 ; -----------------------------------------------------------------------------------
 ; -----------------------------------------------------------------------------------
 
-HexMegArcana 			:= 0xE0607D
-HexMegArcanaGreyedOut 	:= 0x9B585C
-HexMegArcanaSkip 		:= 0x67634C
-HexSoulCard 			:= 0xB9C9CF
+HexMegArcana 				:= 0xE0607D
+HexMegArcanaGreyedOut 			:= 0x9B585C
+HexMegArcanaSkip 			:= 0x67634C
+HexSoulCard 				:= 0xB9C9CF
 HexCanio 				:= 0xDFD2BF
-HexTriboulet			:= 0xE6C284
+HexTriboulet				:= 0xE6C284
 HexYorick 				:= 0x55B1E8
 HexChicot 				:= 0x8083EF
 HexPerkeo 				:= 0xA8B87B
-HexDesiredJoker			:= 0x000000
-HexUseButton			:= 0x404CFF
+HexDesiredJoker				:= 0x000000
+HexUseButton				:= 0x404CFF
 
 TempFoundX				:= 0
 TempFoundY				:= 0
@@ -31,7 +31,7 @@ BalatroY				:= 0
 BalatroW				:= 0
 BalatroH				:= 0
 PacksOpened				:= 0
-UserChoiceJoker			:= "Any Legendary"
+UserChoiceJoker				:= "Any Legendary"
 
 ; -----------------------------------------------------------------------------------
 ; -----------------------------------------------------------------------------------
