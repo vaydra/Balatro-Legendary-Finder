@@ -55,7 +55,7 @@ Gui, Add, Text,,
 Gui, font, s16 bold, Verdana
 Gui, Add, Text,, Pick a Legendary Joker:
 Gui, font, s8 norm, Verdana
-Gui, Add, Text,, Specific Joker will be found on average 2-3 hours. Any Legendary will take about 1 hour. RNG willing.
+Gui, Add, Text,, Specific Joker can take up to 5-10 hours. Any Legendary will take about 1 hour. RNG willing.
 Gui, Add, Text,,
 
 
